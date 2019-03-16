@@ -393,6 +393,10 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/xtended/overlay/common
 PRODUCT_COPY_FILES += \
      vendor/xtended/prebuilt/common/app/SubstratumSignature.apk:system/priv-app/SubstratumSignature/SubstratumSignature.apk
 
+# Cutout control overlay
+PRODUCT_PACKAGES += \
+    NoCutoutOverlay
+
 # Themes
 #$(call inherit-product-if-exists, vendor/xtended/products/themes.mk)
 
