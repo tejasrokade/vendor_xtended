@@ -95,7 +95,8 @@ endif
 
 # Backup services whitelist
 PRODUCT_COPY_FILES += \
-    vendor/xtended/config/permissions/backup.xml:system/etc/sysconfig/backup.xml
+    vendor/xtended/config/permissions/backup.xml:system/etc/sysconfig/backup.xml \
+    vendor/xtended/config/permissions/privapp-permissions-custom.xml:system/etc/permissions/privapp-permissions-custom.xml
 
 # Signature compatibility validation
 PRODUCT_COPY_FILES += \
